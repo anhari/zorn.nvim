@@ -1,6 +1,8 @@
 # zorn.nvim
 
-A warm, earthy Neovim colorscheme with four variants. Named after the [Zorn palette](https://en.wikipedia.org/wiki/Anders_Zorn#Palette) — the limited set of colors (yellow ochre, ivory black, vermilion, and titanium white) used by the Swedish painter Anders Zorn.
+<img src="images/zorn-self-portrait.jpg" alt="Self-Portrait by Anders Zorn (1907). Oil on canvas depicting the artist in a cream coat, green vest, and red cravat against a dark umber background — the four pigments of the Zorn palette." width="280" align="right"/>
+
+A warm, earthy Neovim colorscheme with five variants. Named after the [Zorn palette](https://en.wikipedia.org/wiki/Anders_Zorn#Palette) — the limited set of colors (yellow ochre, ivory black, vermilion, and titanium white) used by the Swedish painter Anders Zorn.
 
 ## Variants
 
