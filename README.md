@@ -83,3 +83,17 @@ vim.cmd("colorscheme zorn")
 - LSP Diagnostics
 
 LSP semantic tokens are cleared by the theme so that Treesitter highlighting takes full control of syntax colors.
+
+## Ghostty
+
+Matching terminal themes are included in the [`ghostty/`](ghostty/) directory. To install, copy them to your Ghostty theme directory:
+
+```sh
+cp ghostty/zorn-* ~/.config/ghostty/themes/
+```
+
+Then set your theme in your Ghostty config:
+
+```
+theme = zorn-dark
+```
