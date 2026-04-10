@@ -22,7 +22,7 @@ Inverted for daytime. Respects `vim.o.background = "light"`.
 
 ### Blue
 
-Deep navy backgrounds with the same warm syntax colors.
+Cool slate-gray backgrounds — the blue-grays that emerge from mixing ivory black with titanium white.
 
 ![zorn-blue](images/blue.svg)
 
@@ -53,10 +53,16 @@ Rich plum-tinted darks for a moodier feel.
 }
 ```
 
-### Local
+### [packer.nvim](https://github.com/wbthomason/packer.nvim)
 
 ```lua
-{ dir = "~/Code/zorn.nvim", lazy = false, priority = 1000 }
+use { "anhari/zorn.nvim" }
+```
+
+### [vim-plug](https://github.com/junegunn/vim-plug)
+
+```vim
+Plug 'anhari/zorn.nvim'
 ```
 
 ## Usage
