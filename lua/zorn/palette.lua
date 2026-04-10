@@ -45,13 +45,13 @@ M.light = {
 }
 
 M.blue = {
-	black = "#1A2535",
-	shadow = "#202E45",
-	halfmix = "#283850",
-	quartermix = "#405A70",
-	slate = "#354D60",
-	blue_gray = "#587890",
-	cool_gray = "#7A9098",
+	black = "#1E2225",
+	shadow = "#262C30",
+	halfmix = "#323A3E",
+	quartermix = "#505A5E",
+	slate = "#3E484E",
+	blue_gray = "#607078",
+	cool_gray = "#808C90",
 	maroon = "#A83828",
 	rust = "#A83020",
 	vermil = "#CC3018",
@@ -67,13 +67,13 @@ M.blue = {
 }
 
 M.plum = {
-	black = "#221418",
-	shadow = "#2A1A1E",
-	halfmix = "#382028",
-	quartermix = "#5A3840",
-	slate = "#4A3038",
-	blue_gray = "#785868",
-	cool_gray = "#907880",
+	black = "#231C1F",
+	shadow = "#2E2427",
+	halfmix = "#3C3032",
+	quartermix = "#5A4C48",
+	slate = "#4C3C40",
+	blue_gray = "#7A6466",
+	cool_gray = "#907C7C",
 	maroon = "#A83828",
 	rust = "#A83020",
 	vermil = "#CC3018",
@@ -85,6 +85,28 @@ M.plum = {
 	sand = "#EED090",
 	parchment = "#EEE0B8",
 	cream = "#F8F3E2",
+	moss = "#6B8C42",
+}
+
+M.umber = {
+	black = "#1A1210",
+	shadow = "#221A16",
+	halfmix = "#302420",
+	quartermix = "#584838",
+	slate = "#4A3828",
+	blue_gray = "#6A5848",
+	cool_gray = "#887868",
+	maroon = "#A83828",
+	rust = "#A83020",
+	vermil = "#CC3018",
+	blush = "#E06848",
+	rose_mist = "#E8B0A0",
+	earth = "#B8870A",
+	ochre = "#E8A010",
+	gold = "#F0C040",
+	sand = "#EED090",
+	parchment = "#E8D8B0",
+	cream = "#F5ECD8",
 	moss = "#6B8C42",
 }
 

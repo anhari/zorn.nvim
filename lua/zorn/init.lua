@@ -15,8 +15,12 @@ function M.load(variant)
 		vim.g.colors_name = "zorn-blue"
 		vim.o.background = "dark"
 	elseif variant == "plum" then
-		p = palette.red
-		vim.g.colors_name = "zorn-red"
+		p = palette.plum
+		vim.g.colors_name = "zorn-plum"
+		vim.o.background = "dark"
+	elseif variant == "umber" then
+		p = palette.umber
+		vim.g.colors_name = "zorn-umber"
 		vim.o.background = "dark"
 	elseif variant == "light" then
 		p = palette.light

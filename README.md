@@ -22,6 +22,12 @@ Deep navy backgrounds with the same warm syntax colors.
 
 ![zorn-blue](images/blue.svg)
 
+### Umber
+
+Burnt umber and dark wood. The shadowed interior of a Zorn painting.
+
+![zorn-umber](images/umber.svg)
+
 ### Plum
 
 Rich plum-tinted darks for a moodier feel.
@@ -55,6 +61,7 @@ Rich plum-tinted darks for a moodier feel.
 :colorscheme zorn-dark
 :colorscheme zorn-light
 :colorscheme zorn-blue
+:colorscheme zorn-umber
 :colorscheme zorn-plum
 ```
 

@@ -20,44 +20,44 @@
 
   <text x="12" y="80" class="ln">2</text>
   <text x="44" y="80" fill="#962818">class</text>
-  <text x="84" y="80" fill="#7A5800"> Palette</text>
+  <text x="84" y="80" fill="#7A5800">Palette</text>
 
   <text x="12" y="100" class="ln">3</text>
   <text x="60" y="100" fill="#C84828">VARIANTS</text>
-  <text x="124" y="100" fill="#A06858"> = </text>
-  <text x="148" y="100" fill="#6A7870">[</text>
-  <text x="156" y="100" fill="#7A5800">:dark</text>
-  <text x="196" y="100" fill="#6A7870">, </text>
-  <text x="212" y="100" fill="#7A5800">:light</text>
-  <text x="260" y="100" fill="#6A7870">, </text>
-  <text x="276" y="100" fill="#7A5800">:blue</text>
-  <text x="316" y="100" fill="#6A7870">, </text>
-  <text x="332" y="100" fill="#7A5800">:plum</text>
-  <text x="372" y="100" fill="#6A7870">]</text>
+  <text x="124" y="100" fill="#A06858">=</text>
+  <text x="140" y="100" fill="#6A7870">[</text>
+  <text x="148" y="100" fill="#7A5800">:dark</text>
+  <text x="188" y="100" fill="#6A7870">,</text>
+  <text x="204" y="100" fill="#7A5800">:light</text>
+  <text x="252" y="100" fill="#6A7870">,</text>
+  <text x="268" y="100" fill="#7A5800">:blue</text>
+  <text x="308" y="100" fill="#6A7870">,</text>
+  <text x="324" y="100" fill="#7A5800">:plum</text>
+  <text x="364" y="100" fill="#6A7870">]</text>
 
   <text x="12" y="120" class="ln">4</text>
 
   <text x="12" y="140" style="fill:#B87800">5</text>
   <text x="60" y="140" fill="#962818">def</text>
-  <text x="84" y="140" fill="#B87800"> initialize</text>
+  <text x="84" y="140" fill="#B87800">initialize</text>
   <text x="164" y="140" fill="#6A7870">(</text>
   <text x="172" y="140" fill="#8A7040" font-style="italic">variant</text>
-  <text x="228" y="140" fill="#A06858"> = </text>
-  <text x="252" y="140" fill="#7A5800">:dark</text>
-  <text x="292" y="140" fill="#6A7870">)</text>
+  <text x="220" y="140" fill="#A06858">=</text>
+  <text x="236" y="140" fill="#7A5800">:dark</text>
+  <text x="276" y="140" fill="#6A7870">)</text>
 
   <text x="12" y="160" class="ln">6</text>
   <text x="76" y="160" fill="#C84828" font-style="italic">@variant</text>
-  <text x="140" y="160" fill="#A06858"> = </text>
-  <text x="164" y="160" fill="#2A2218">variant</text>
+  <text x="140" y="160" fill="#A06858">=</text>
+  <text x="156" y="160" fill="#2A2218">variant</text>
 
   <text x="12" y="180" class="ln">7</text>
   <text x="76" y="180" fill="#C84828" font-style="italic">@colors</text>
-  <text x="132" y="180" fill="#A06858"> = </text>
-  <text x="156" y="180" fill="#5A7888">load_colors</text>
-  <text x="244" y="180" fill="#6A7870">(</text>
-  <text x="252" y="180" fill="#2A2218">variant</text>
-  <text x="308" y="180" fill="#6A7870">)</text>
+  <text x="132" y="180" fill="#A06858">=</text>
+  <text x="148" y="180" fill="#5A7888">load_colors</text>
+  <text x="236" y="180" fill="#6A7870">(</text>
+  <text x="244" y="180" fill="#2A2218">variant</text>
+  <text x="300" y="180" fill="#6A7870">)</text>
 
   <text x="12" y="200" class="ln">8</text>
   <text x="60" y="200" fill="#962818">end</text>
@@ -66,33 +66,35 @@
 
   <text x="12" y="240" class="ln">10</text>
   <text x="60" y="240" fill="#962818">def</text>
-  <text x="84" y="240" fill="#B87800"> apply</text>
+  <text x="84" y="240" fill="#B87800">apply</text>
 
   <text x="12" y="260" class="ln">11</text>
   <text x="76" y="260" fill="#B82010">return</text>
-  <text x="124" y="260" fill="#962818"> unless</text>
-  <text x="176" y="260" fill="#C84828"> VARIANTS</text>
-  <text x="244" y="260" fill="#6A7870">.</text>
-  <text x="252" y="260" fill="#5A7888">include?</text>
-  <text x="316" y="260" fill="#6A7870">(</text>
-  <text x="324" y="260" fill="#C84828" font-style="italic">@variant</text>
-  <text x="388" y="260" fill="#6A7870">)</text>
+  <text x="124" y="260" fill="#962818">unless</text>
+  <text x="172" y="260" fill="#C84828">VARIANTS</text>
+  <text x="236" y="260" fill="#6A7870">.</text>
+  <text x="244" y="260" fill="#5A7888">include?</text>
+  <text x="308" y="260" fill="#6A7870">(</text>
+  <text x="316" y="260" fill="#C84828" font-style="italic">@variant</text>
+  <text x="380" y="260" fill="#6A7870">)</text>
 
   <text x="12" y="280" class="ln">12</text>
   <text x="76" y="280" fill="#C84828" font-style="italic">@colors</text>
   <text x="132" y="280" fill="#6A7870">.</text>
   <text x="140" y="280" fill="#5A7888">each</text>
-  <text x="172" y="280" fill="#6A7870"> { |</text>
-  <text x="200" y="280" fill="#8A7040" font-style="italic">k</text>
-  <text x="208" y="280" fill="#6A7870">,</text>
-  <text x="216" y="280" fill="#8A7040" font-style="italic"> v</text>
-  <text x="228" y="280" fill="#6A7870">| </text>
-  <text x="244" y="280" fill="#5A7888">set</text>
-  <text x="268" y="280" fill="#6A7870">(</text>
-  <text x="276" y="280" fill="#2A2218">k</text>
-  <text x="284" y="280" fill="#6A7870">,</text>
-  <text x="292" y="280" fill="#2A2218"> v</text>
-  <text x="304" y="280" fill="#6A7870">) }</text>
+  <text x="172" y="280" fill="#6A7870">{</text>
+  <text x="184" y="280" fill="#6A7870">|</text>
+  <text x="192" y="280" fill="#8A7040" font-style="italic">k</text>
+  <text x="200" y="280" fill="#6A7870">,</text>
+  <text x="212" y="280" fill="#8A7040" font-style="italic">v</text>
+  <text x="220" y="280" fill="#6A7870">|</text>
+  <text x="232" y="280" fill="#5A7888">set</text>
+  <text x="256" y="280" fill="#6A7870">(</text>
+  <text x="264" y="280" fill="#2A2218">k</text>
+  <text x="272" y="280" fill="#6A7870">,</text>
+  <text x="284" y="280" fill="#2A2218">v</text>
+  <text x="292" y="280" fill="#6A7870">)</text>
+  <text x="304" y="280" fill="#6A7870">}</text>
 
   <text x="12" y="300" class="ln">13</text>
   <text x="60" y="300" fill="#962818">end</text>
