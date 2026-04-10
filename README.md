@@ -44,7 +44,7 @@ Rich plum-tinted darks for a moodier feel.
 
 ```lua
 {
-  "michaeldanhari/zorn.nvim",
+  "anhari/zorn.nvim",
   lazy = false,
   priority = 1000,
   config = function()
