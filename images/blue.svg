@@ -1,104 +1,31 @@
 <svg width="640" height="380" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      text { font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', Menlo, Consolas, monospace; font-size: 13px; }
-      .ln { fill: #385058; }
+      text { font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', Menlo, Consolas, monospace; font-size: 13px; white-space: pre; }
     </style>
   </defs>
-  <rect width="640" height="380" fill="#1A2028" rx="8"/>
-  <rect width="640" height="32" fill="#1E2830" rx="8"/>
-  <rect y="24" width="640" height="8" fill="#1E2830"/>
+  <rect width="640" height="380" fill="#1E2225" rx="8"/>
+  <rect width="640" height="32" fill="#262C30" rx="8"/>
+  <rect y="24" width="640" height="8" fill="#262C30"/>
   <circle cx="16" cy="16" r="5" fill="#A83020"/>
   <circle cx="34" cy="16" r="5" fill="#E8A010"/>
   <circle cx="52" cy="16" r="5" fill="#6B8C42"/>
-  <text x="280" y="20" fill="#7A9890" font-size="12" text-anchor="middle">zorn-blue</text>
+  <text x="280" y="20" fill="#808C90" font-size="12" text-anchor="middle">zorn-blue</text>
 
-  <rect x="0" y="129" width="640" height="18" fill="#1E2830"/>
+  <rect x="0" y="129" width="640" height="18" fill="#262C30"/>
 
-  <text x="12" y="60" class="ln">1</text>
-  <text x="44" y="60" fill="#4A5860" font-style="italic"># Warm colors for warm code</text>
-
-  <text x="12" y="80" class="ln">2</text>
-  <text x="44" y="80" fill="#A83020">class</text>
-  <text x="84" y="80" fill="#B8870A">Palette</text>
-
-  <text x="12" y="100" class="ln">3</text>
-  <text x="60" y="100" fill="#E06848">VARIANTS</text>
-  <text x="124" y="100" fill="#E8B0A0">=</text>
-  <text x="140" y="100" fill="#7A9890">[</text>
-  <text x="148" y="100" fill="#B8870A">:dark</text>
-  <text x="188" y="100" fill="#7A9890">,</text>
-  <text x="204" y="100" fill="#B8870A">:light</text>
-  <text x="252" y="100" fill="#7A9890">,</text>
-  <text x="268" y="100" fill="#B8870A">:blue</text>
-  <text x="308" y="100" fill="#7A9890">,</text>
-  <text x="324" y="100" fill="#B8870A">:plum</text>
-  <text x="364" y="100" fill="#7A9890">]</text>
-
-  <text x="12" y="120" class="ln">4</text>
-
-  <text x="12" y="140" style="fill:#E8A010">5</text>
-  <text x="60" y="140" fill="#A83020">def</text>
-  <text x="84" y="140" fill="#E8A010">initialize</text>
-  <text x="164" y="140" fill="#7A9890">(</text>
-  <text x="172" y="140" fill="#EED090" font-style="italic">variant</text>
-  <text x="220" y="140" fill="#E8B0A0">=</text>
-  <text x="236" y="140" fill="#B8870A">:dark</text>
-  <text x="276" y="140" fill="#7A9890">)</text>
-
-  <text x="12" y="160" class="ln">6</text>
-  <text x="76" y="160" fill="#E06848" font-style="italic">@variant</text>
-  <text x="140" y="160" fill="#E8B0A0">=</text>
-  <text x="156" y="160" fill="#C8C0A8">variant</text>
-
-  <text x="12" y="180" class="ln">7</text>
-  <text x="76" y="180" fill="#E06848" font-style="italic">@colors</text>
-  <text x="132" y="180" fill="#E8B0A0">=</text>
-  <text x="148" y="180" fill="#588078">load_colors</text>
-  <text x="236" y="180" fill="#7A9890">(</text>
-  <text x="244" y="180" fill="#C8C0A8">variant</text>
-  <text x="300" y="180" fill="#7A9890">)</text>
-
-  <text x="12" y="200" class="ln">8</text>
-  <text x="60" y="200" fill="#A83020">end</text>
-
-  <text x="12" y="220" class="ln">9</text>
-
-  <text x="12" y="240" class="ln">10</text>
-  <text x="60" y="240" fill="#A83020">def</text>
-  <text x="84" y="240" fill="#E8A010">apply</text>
-
-  <text x="12" y="260" class="ln">11</text>
-  <text x="76" y="260" fill="#CC3018">return</text>
-  <text x="124" y="260" fill="#A83020">unless</text>
-  <text x="172" y="260" fill="#E06848">VARIANTS</text>
-  <text x="236" y="260" fill="#7A9890">.</text>
-  <text x="244" y="260" fill="#588078">include?</text>
-  <text x="308" y="260" fill="#7A9890">(</text>
-  <text x="316" y="260" fill="#E06848" font-style="italic">@variant</text>
-  <text x="380" y="260" fill="#7A9890">)</text>
-
-  <text x="12" y="280" class="ln">12</text>
-  <text x="76" y="280" fill="#E06848" font-style="italic">@colors</text>
-  <text x="132" y="280" fill="#7A9890">.</text>
-  <text x="140" y="280" fill="#588078">each</text>
-  <text x="172" y="280" fill="#7A9890">{</text>
-  <text x="184" y="280" fill="#7A9890">|</text>
-  <text x="192" y="280" fill="#EED090" font-style="italic">k</text>
-  <text x="200" y="280" fill="#7A9890">,</text>
-  <text x="212" y="280" fill="#EED090" font-style="italic">v</text>
-  <text x="220" y="280" fill="#7A9890">|</text>
-  <text x="232" y="280" fill="#588078">set</text>
-  <text x="256" y="280" fill="#7A9890">(</text>
-  <text x="264" y="280" fill="#C8C0A8">k</text>
-  <text x="272" y="280" fill="#7A9890">,</text>
-  <text x="284" y="280" fill="#C8C0A8">v</text>
-  <text x="292" y="280" fill="#7A9890">)</text>
-  <text x="304" y="280" fill="#7A9890">}</text>
-
-  <text x="12" y="300" class="ln">13</text>
-  <text x="60" y="300" fill="#A83020">end</text>
-
-  <text x="12" y="320" class="ln">14</text>
-  <text x="44" y="320" fill="#A83020">end</text>
+  <text y="60" xml:space="preserve"><tspan x="12" fill="#3E484E"> 1</tspan><tspan fill="#505A5E" font-style="italic">  # Warm colors for warm code</tspan></text>
+  <text y="80" xml:space="preserve"><tspan x="12" fill="#3E484E"> 2</tspan><tspan fill="#C8C0A8">  </tspan><tspan fill="#A83020">class</tspan><tspan fill="#C8C0A8"> </tspan><tspan fill="#B8870A">Palette</tspan></text>
+  <text y="100" xml:space="preserve"><tspan x="12" fill="#3E484E"> 3</tspan><tspan fill="#C8C0A8">    </tspan><tspan fill="#E06848">VARIANTS</tspan><tspan fill="#C8C0A8"> </tspan><tspan fill="#E8B0A0">=</tspan><tspan fill="#C8C0A8"> </tspan><tspan fill="#808C90">[</tspan><tspan fill="#B8870A">:dark</tspan><tspan fill="#808C90">, </tspan><tspan fill="#B8870A">:light</tspan><tspan fill="#808C90">, </tspan><tspan fill="#B8870A">:blue</tspan><tspan fill="#808C90">, </tspan><tspan fill="#B8870A">:plum</tspan><tspan fill="#808C90">]</tspan></text>
+  <text y="120" xml:space="preserve"><tspan x="12" fill="#3E484E"> 4</tspan></text>
+  <text y="140" xml:space="preserve"><tspan x="12" fill="#E8A010"> 5</tspan><tspan fill="#C8C0A8">    </tspan><tspan fill="#A83020">def</tspan><tspan fill="#C8C0A8"> </tspan><tspan fill="#E8A010">initialize</tspan><tspan fill="#808C90">(</tspan><tspan fill="#EED090" font-style="italic">variant</tspan><tspan fill="#C8C0A8"> </tspan><tspan fill="#E8B0A0">=</tspan><tspan fill="#C8C0A8"> </tspan><tspan fill="#B8870A">:dark</tspan><tspan fill="#808C90">)</tspan></text>
+  <text y="160" xml:space="preserve"><tspan x="12" fill="#3E484E"> 6</tspan><tspan fill="#C8C0A8">      </tspan><tspan fill="#E06848" font-style="italic">@variant</tspan><tspan fill="#C8C0A8"> </tspan><tspan fill="#E8B0A0">=</tspan><tspan fill="#C8C0A8"> variant</tspan></text>
+  <text y="180" xml:space="preserve"><tspan x="12" fill="#3E484E"> 7</tspan><tspan fill="#C8C0A8">      </tspan><tspan fill="#E06848" font-style="italic">@colors</tspan><tspan fill="#C8C0A8"> </tspan><tspan fill="#E8B0A0">=</tspan><tspan fill="#C8C0A8"> </tspan><tspan fill="#607078">load_colors</tspan><tspan fill="#808C90">(</tspan><tspan fill="#C8C0A8">variant</tspan><tspan fill="#808C90">)</tspan></text>
+  <text y="200" xml:space="preserve"><tspan x="12" fill="#3E484E"> 8</tspan><tspan fill="#C8C0A8">    </tspan><tspan fill="#A83020">end</tspan></text>
+  <text y="220" xml:space="preserve"><tspan x="12" fill="#3E484E"> 9</tspan></text>
+  <text y="240" xml:space="preserve"><tspan x="12" fill="#3E484E">10</tspan><tspan fill="#C8C0A8">    </tspan><tspan fill="#A83020">def</tspan><tspan fill="#C8C0A8"> </tspan><tspan fill="#E8A010">apply</tspan></text>
+  <text y="260" xml:space="preserve"><tspan x="12" fill="#3E484E">11</tspan><tspan fill="#C8C0A8">      </tspan><tspan fill="#CC3018">return</tspan><tspan fill="#C8C0A8"> </tspan><tspan fill="#A83020">unless</tspan><tspan fill="#C8C0A8"> </tspan><tspan fill="#E06848">VARIANTS</tspan><tspan fill="#808C90">.</tspan><tspan fill="#607078">include?</tspan><tspan fill="#808C90">(</tspan><tspan fill="#E06848" font-style="italic">@variant</tspan><tspan fill="#808C90">)</tspan></text>
+  <text y="280" xml:space="preserve"><tspan x="12" fill="#3E484E">12</tspan><tspan fill="#C8C0A8">      </tspan><tspan fill="#E06848" font-style="italic">@colors</tspan><tspan fill="#808C90">.</tspan><tspan fill="#607078">each</tspan><tspan fill="#C8C0A8"> </tspan><tspan fill="#808C90">{</tspan><tspan fill="#C8C0A8"> </tspan><tspan fill="#808C90">|</tspan><tspan fill="#EED090" font-style="italic">k</tspan><tspan fill="#808C90">,</tspan><tspan fill="#C8C0A8"> </tspan><tspan fill="#EED090" font-style="italic">v</tspan><tspan fill="#808C90">|</tspan><tspan fill="#C8C0A8"> </tspan><tspan fill="#607078">set</tspan><tspan fill="#808C90">(</tspan><tspan fill="#C8C0A8">k</tspan><tspan fill="#808C90">,</tspan><tspan fill="#C8C0A8"> v</tspan><tspan fill="#808C90">)</tspan><tspan fill="#C8C0A8"> </tspan><tspan fill="#808C90">}</tspan></text>
+  <text y="300" xml:space="preserve"><tspan x="12" fill="#3E484E">13</tspan><tspan fill="#C8C0A8">    </tspan><tspan fill="#A83020">end</tspan></text>
+  <text y="320" xml:space="preserve"><tspan x="12" fill="#3E484E">14</tspan><tspan fill="#C8C0A8">  </tspan><tspan fill="#A83020">end</tspan></text>
 </svg>
