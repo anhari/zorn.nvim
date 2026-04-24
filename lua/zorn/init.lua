@@ -280,6 +280,33 @@ function M.load(variant)
 	hi("WhichKeySeperator", { fg = p.blue_gray })
 	hi("WhichKeyFloat", { bg = p.shadow })
 
+	-- nvim-cmp completion kinds
+	hi("CmpItemKindFunction", { link = "Function" })
+	hi("CmpItemKindMethod", { link = "Function" })
+	hi("CmpItemKindConstructor", { link = "Function" })
+	hi("CmpItemKindClass", { link = "Type" })
+	hi("CmpItemKindInterface", { link = "Type" })
+	hi("CmpItemKindStruct", { link = "Type" })
+	hi("CmpItemKindEnum", { link = "Type" })
+	hi("CmpItemKindTypeParameter", { link = "Type" })
+	hi("CmpItemKindVariable", { link = "Identifier" })
+	hi("CmpItemKindField", { link = "Identifier" })
+	hi("CmpItemKindProperty", { link = "Identifier" })
+	hi("CmpItemKindConstant", { link = "Constant" })
+	hi("CmpItemKindEnumMember", { link = "Constant" })
+	hi("CmpItemKindKeyword", { link = "Keyword" })
+	hi("CmpItemKindOperator", { link = "Operator" })
+	hi("CmpItemKindText", { link = "String" })
+	hi("CmpItemKindValue", { link = "Number" })
+	hi("CmpItemKindUnit", { link = "Number" })
+	hi("CmpItemKindModule", { link = "Include" })
+	hi("CmpItemKindFile", { link = "Directory" })
+	hi("CmpItemKindFolder", { link = "Directory" })
+	hi("CmpItemKindReference", { link = "Special" })
+	hi("CmpItemKindSnippet", { link = "Special" })
+	hi("CmpItemKindColor", { link = "Special" })
+	hi("CmpItemKindEvent", { link = "Special" })
+
 	-- Terminal colors
 	vim.g.terminal_color_0 = p.shadow
 	vim.g.terminal_color_1 = p.vermil
